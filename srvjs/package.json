@@ -1,0 +1,17 @@
+{
+    "name": "arc-srvjs",
+    "engines": {
+        "node": "14.x"
+    },
+    "dependencies": {
+        "express": "latest",
+        "body-parser": "latest",
+        "@sap/xssec": "latest",
+        "passport": "latest",
+        "@sap/hdbext": "latest",
+        "@sap/xsenv": "latest"
+    },
+    "scripts": {
+        "start": "node server.js"
+    }
+}
